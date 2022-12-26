@@ -1,0 +1,60 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Rens Jaspers - Frontend Developer in Amsterdam, The Netherlands">
+  <main class="p-8 min-h-full flex overflow-y-scroll">
+    <div class="m-auto max-w-xl grid md:grid-cols-2 sm:grid-cols-1 gap-8">
+      <div
+        class="bg-center bg-image bg-no-repeat bg-cover"
+        style="background-image: url('https://www.rensjaspers.nl/assets/images/me.webp');"
+      >
+      </div>
+      <div>
+        <h1 class="text-2xl font-bold text-gray-50">
+          Rens Jaspers - Frontend Developer in Amsterdam, The Netherlands
+        </h1>
+
+        <p class="mt-4 text-gray-100 leading-relaxed">
+          I have been working as a web frontend developer since 2014. In 2019, I
+          transitioned to becoming a full stack web developer.
+        </p>
+        <p class="mt-4 text-gray-100 leading-relaxed">
+          My areas of expertise include Angular, Ionic, and NestJS. I have a
+          particular focus on developing healthcare applications.
+        </p>
+        <p class="mt-4 text-gray-100 leading-relaxed">
+          Prior to my career in IT, I studied East Asian Studies (MA) and Japan
+          Studies (BA) at Leiden University, with a focus on linguistics and
+          online communication.
+        </p>
+        <p class="mt-4 text-gray-100 leading-relaxed">
+          In my free time, I enjoy playing classical guitar and playing chess. I
+          also enjoy playing table tennis.
+        </p>
+
+        <p class="mt-4 text-gray-100 leading-relaxed">
+          You can find me on <a
+            href="https://github.com/rensjaspers"
+            class="text-base font-medium hover:text-blue-800 text-blue-500"
+            >GitHub</a
+          >, <a
+            href="https://nl.linkedin.com/in/rensjaspers"
+            class="text-base font-medium hover:text-blue-800 text-blue-500"
+            >LinkedIn</a
+          >, or you can contact me by <a
+            href="mailto:hello@rensjaspers.nl"
+            class="text-base font-medium hover:text-blue-800 text-blue-500"
+            >email</a
+          >.
+        </p>
+      </div>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  main {
+    @apply h-full flex;
+  }
+</style>
